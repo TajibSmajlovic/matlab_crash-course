@@ -13,9 +13,10 @@ b = 5.1929394959; % double precision allows 4 digits aftet '.'
 %b = single(b); % single - name of the function (built in)
                 % d - name of variable
               
-class(b); % to get the class value of variable
+class(c) % to get the class value of variable
 
 whos b 
+whos c
 
 % Character type
 c = 'matlab crash course' % a spring variable
