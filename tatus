@@ -1,0 +1,30 @@
+[33mcommit 87b334ea0e6ee7ab08edc0c7714e1259bc835630[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: a0ca4d5 37ec20d
+Author: Tajib Smajlović <smajlovic.tajib@gmail.com>
+Date:   Wed Jun 27 13:49:30 2018 +0200
+
+    adds lecture 2
+
+[33mcommit a0ca4d53a5804b134b368f1820e1c7cbd0cd008a[m
+Author: Tajib Smajlović <smajlovic.tajib@gmail.com>
+Date:   Tue Jun 26 18:05:07 2018 +0200
+
+    lecture-1
+
+[33mcommit 37ec20dd2933b95cf8d5081b15ba85ea3a08ddaf[m
+Author: Tajib Smajlović <smajlovic.tajib@gmail.com>
+Date:   Tue Jun 26 18:04:12 2018 +0200
+
+    Delete Untitled.m
+
+[33mcommit a149a449f5aa0df87bfd4ca218487c85aef35594[m
+Author: Tajib Smajlović <smajlovic.tajib@gmail.com>
+Date:   Tue Jun 26 18:04:02 2018 +0200
+
+    Delete Untitled.asv
+
+[33mcommit 76d12326285bce74768584267fcfd348abe822de[m
+Author: Tajib Smajlović <smajlovic.tajib@gmail.com>
+Date:   Tue Jun 26 17:48:56 2018 +0200
+
+    matlab_crash-course
