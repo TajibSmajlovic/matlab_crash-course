@@ -1,0 +1,164 @@
+%While Loop
+k = 1; % In while loops, index is defined seperately from while loop.
+
+while k <= length(demand)
+    if demand(k) <= 45
+        inventory(k) = 20 + 0.0135*demand(k)^2
+    else
+        inventory(k) = 23 + 0.0139*demand(k)^2
+    end
+    k = k+1; % bu satýrý eklemeden dosyayý kaydettir ve çalýþtýr bug için daha sonra bunu ekleyip çalýþtýr.
+end
+
+%Definition of index and increase/decrease of it are compulsory in while loops.
+
+% FUNCTIONS
+
+% Built-in Functions
+
+x = 4 
+
+b = sqrt(x) %Returns square root of a function. 
+
+%Basic structure of a function is : 
+% output = functionName(input) 
+
+x= [4 9 16]
+
+b = sqrt(x) %Function will calculate square of each element.
+
+rem(10,3) %Remainder function will return the remainder of a division.
+%Certain functions require multiple inputs. Otherwise, they will not work.
+
+d = [1 2 3; 4 5 6]
+
+[matrixRows, matrixColumns] = size(d)
+
+%Mathematical Functions
+
+abs(-3) % Absoulute value function.
+
+abs(-74)
+
+round(8.6) % Rounds x to the nearest integer.
+
+round(8.2)
+
+round(8.5)
+
+round(8.49)
+
+fix(8.9) %Rounds to the nearest integer toward zero.
+
+fix(-8.9)
+
+floor(-7.6) % Rounds to the nearest integer toward -infinity.
+
+floor(-7.1)
+
+ceil(-9.6) % Rounds to the nearest integer toward +infinity.
+
+sign(-4) %Returns the sign of a value.
+
+signOfValue = sign(-34) % Output value of function will be stored in variable.
+
+A = exp(3) % Exponential value. 
+
+B = exp(1)*exp(1)*exp(1)
+
+log10(100) % Logarithm of a function to the base 10.
+
+log(exp(5)) %Logarithm of a function to base of e.
+
+log2(16) %Logarithm of a function to the base 2.
+
+%Trigonometric Functions
+
+pi % Pi value.
+
+x = 90
+
+sin(pi) % Trigonometric functions take arguments as radians.
+
+piInDegrees= rad2deg(pi)
+
+sind(x) % sind, cosd functions take argument in degrees.
+
+cosd(x) 
+
+tand(45) %Tangent of a degree.
+
+cotd(45) %Cotangent of a degree.
+
+%Analysis Functions
+
+x = [1 5 3]
+
+max(x) %Returns the largest value.
+
+y = [1 5 3; 2 4 6]
+
+max(y) %If two dimensional array is provided, maximum value from each column will be returned.
+
+min(x) %Returns the minimum value.
+
+min(y) %Returns the minimum value of each column.
+
+a  = [4 5 6 7 8 9]
+
+mean(a)  %Returns the average of matrix
+
+mean(y)  %Returns the average of each column.
+
+
+
+%Nested Function
+g = sqrt(sind(90))
+
+
+% Random functions
+
+%Each random function type follows a probability distribution. 
+% Rand function follows uniform distribution.
+
+rand(2) %Returns matrix of random numbers of 2 rows and 2 columns between 0 and 1. It will change each time we run.
+
+rand(4,3) %Random number matrix of 4 rows and 3 columns.
+
+%Lets create a random range:
+r = rand(10,1)
+
+r = r*10 %Extend the boundaries.
+
+r= r-5    %Move boundaries. %Now we have random numbers between -5 and 5.
+
+%Create a random range between 40 and 340 of 10 numbers.
+
+% Random number from normal distribution.
+
+randn(2)
+
+rand(4,2) %Values are from normal dist.
+
+%Random integer matrix
+
+randi(50,3) %First argument is for up boundary, second is for dimension.
+
+randi(20,4,2)
+
+randi(35,4,2,4) %Three dimensional random integer array.
+
+%Create three dimensional array where max boundary is 55 and it has 5 rows, 4 columns and 3 pages.
+
+A = randi(40,2,3); %two dimensional matrix
+B = randi(40,2,3); %two dimensional matrix
+
+
+
+if A==B %Two equals signs inserted to check whether they are equal
+    disp('Two matrices are equal.');
+elseif A(1)>B(1)
+    disp('First element of A is bigger than B.');
+else
+    disp('These two matrices are not equal.');
+end
